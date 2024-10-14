@@ -79,7 +79,7 @@ RUN poetry install --no-dev
 ##########################
 # Clean production image #
 ##########################
-FROM python:3.11-slim-bullseye AS prod
+FROM python:3.12.7-slim-bullseye AS prod
 
 WORKDIR /app
 
